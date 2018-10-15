@@ -31,7 +31,7 @@ RUN bash -x local/run_asr_segmentation.sh \
   --lang data/lang_train \
   --lang-test data/lang_train \
   --graph_dir exp/tri3/graph \
-  --data_dir tshi3/train
+  --data_dir tshi3/train_free
 
 CMD bash -x local/run_asr_segmentation.sh \
   --stage 7 \
@@ -40,6 +40,6 @@ CMD bash -x local/run_asr_segmentation.sh \
   --lang data/lang_train \
   --lang-test data/lang_train \
   --graph_dir exp/tri3/graph \
-  --data_dir tshi3/train
+  --data_dir tshi3/train_free
 
 
